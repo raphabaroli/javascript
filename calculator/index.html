@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Calculadora em JS</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Raphael Oliveira">
+    <meta name="description" content="Aulas Scripts">
+    <meta name="keywords" content="java script, sites, webmaster">
+
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>Calculadora</h1>
+        <p>Use esta calculadora para calcular via web!</p>
+    </div>
+
+    <div class="formcalculator">
+
+        <form class="calculator">
+
+            <div id="mostrador">
+                <input type="text" name="signal" id="signal" value="" readonly="readonly" />
+                <input type="text" name="num" id="num" value="0" readonly="readonly" />
+            </div>
+
+            <div class="buttons">
+                <input type="button" class="botao" value="7" name="b7" id="b1" onclick="digito(this)" />
+                <input type="button" class="botao" value="8" name="b8" id="b2" onclick="digito(this)" />
+                <input type="button" class="botao" value="9" name="b9" id="b3" onclick="digito(this)" />
+                <input type="button" class="botao" value="+" name="b+" id="b4" onclick="sinal(this)" />
+                <br>
+                <input type="button" class="botao" value="4" name="b4" id="b5" onclick="digito(this)" />
+                <input type="button" class="botao" value="5" name="b5" id="b6" onclick="digito(this)" />
+                <input type="button" class="botao" value="6" name="b6" id="b7" onclick="digito(this)" />
+                <input type="button" class="botao" value="-" name="b-" id="b8" onclick="sinal(this)" />
+                <br>
+                <input type="button" class="botao" value="1" name="b1" id="b9" onclick="digito(this)" />
+                <input type="button" class="botao" value="2" name="b2" id="b10" onclick="digito(this)" />
+                <input type="button" class="botao" value="3" name="b3" id="b11" onclick="digito(this)" />
+                <input type="button" class="botao" value="*" name="b*" id="b12" onclick="sinal(this)" />
+                <br>
+                <input type="button" class="botao" value="0" name="bA" id="b13" onclick="digito(this)" />
+                <input type="button" class="botao" value="." name="bB" id="b14" onclick="ponto(this)" />
+                <input type="button" class="botao" value="=" name="bC" id="b15" onclick="igual()" />
+                <input type="button" class="botao" value="/" name="bD" id="b16" onclick="sinal(this)" />
+                <br>
+                <input type="button" class="botao" value="CE" name="clear" id="clear" onclick="limpar()" />
+            </div>
+        </form>
+
+    </div>
+
+    <!--comandos javascript-->
+    <script type="text/javascript" src="/script.js"></script>
+</body>
+
+
+
+</html>

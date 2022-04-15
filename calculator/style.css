@@ -1,0 +1,92 @@
+
+body
+{   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+background: linear-gradient(50deg, rgba(22,54,255,1) 0%, rgba(222,72,255,1) 100%);
+
+height: auto;
+background-attachment: fixed;
+background-size: cover;
+
+}
+h1
+{
+    font-size: 40px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+p
+{
+    width: auto;
+    font-size: 20px;
+    color: antiquewhite;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input 
+{   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    width: 52px;
+    height: 50px;
+    border-radius: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    
+}
+input:hover
+{
+    background-color:rgb(61, 165, 250);
+}
+#num
+{
+    width: 180px;
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:white;
+    border: none;
+}
+#signal
+{
+    width: 20px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    background-color:white;
+}
+#mostrador
+{
+    border: solid 1px;
+    border-radius: 2px;
+    width: 220px;
+    background-color: white;
+    margin-bottom: 6px;
+    height: 60px;
+}
+
+.formcalculator
+{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    border: solid black 1px;
+    border-radius: 20px;
+    margin: auto;
+    background-color: rgb(61, 61, 61);
+    padding-top: 30px;
+    padding-bottom: 30px;
+   
+}
+.botao
+{
+    height: 50px;
+}
+
+
+
+
