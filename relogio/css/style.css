@@ -1,0 +1,21 @@
+body {
+  background-color: dimgray;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+h1 {
+  color: aqua;
+  width: 100%;
+  text-align: center;
+}
+footer {
+  color: white;
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: black;
+  font-size: 18px;
+  text-transform: capitalize;
+}
