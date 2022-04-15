@@ -1,2 +1,2 @@
 # javascript 
-# Developed js codes. 
+# Developed javascript codes. 
